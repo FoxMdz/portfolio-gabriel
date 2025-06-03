@@ -2,140 +2,31 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gabriel Augusto | Portfólio</title>
-  <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header, section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    h2 {
-      font-size: 28px;
-      color: #ccc;
-      margin-bottom: 20px;
-    }
-    p {
-      color: #aaa;
-      max-width: 800px;
-      margin: 0 auto 20px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .card {
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-radius: 12px;
-      border: 1px solid #444;
-    }
-    .placeholder {
-      background-color: #333;
-      height: 180px;
-      margin-bottom: 10px;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #777;
-      font-size: 14px;
-    }
-    .contact-info {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-    a {
-      color: #aaa;
-      text-decoration: underline;
-    }
-    form {
-      max-width: 500px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    input, textarea, button {
-      padding: 10px;
-      border-radius: 6px;
-      border: none;
-    }
-    input, textarea {
-      background-color: #222;
-      color: #fff;
-    }
-    button {
-      background-color: #fff;
-      color: #000;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #ccc;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gabriel Augusto - Portfólio</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
     <h1>Gabriel Augusto</h1>
     <p>Arte Finalista, Designer Gráfico e Operador de Máquinas</p>
-    <p>Zona Norte, São Paulo - SP</p>
+    <p>Profissional atuando na área da Comunicação Visual há 5 anos,<br> com vasto conhecimento desde a criação até a finalização da peça.</p>
+    <p>Zona Norte, São Paulo - SP | Português e Inglês</p>
   </header>
 
-  <section>
-    <h2>Sobre</h2>
-    <p>Profissional atuando na área da Comunicação Visual a 5 anos, com vasto conhecimento desde a criação e desenvolvimento da peça até a produção e finalização da mesma.</p>
-  </section>
-
-  <section>
-    <h2>Projetos</h2>
-    <div class="grid">
-      <!-- Substituir com imagens reais futuramente -->
-      <div class="card"><div class="placeholder">Imagem do Projeto 1</div><p>Projeto 1</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 2</div><p>Projeto 2</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 3</div><p>Projeto 3</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 4</div><p>Projeto 4</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 5</div><p>Projeto 5</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 6</div><p>Projeto 6</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 7</div><p>Projeto 7</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 8</div><p>Projeto 8</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 9</div><p>Projeto 9</p></div>
-      <div class="card"><div class="placeholder">Imagem do Projeto 10</div><p>Projeto 10</p></div>
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="galeria">
+      <div class="projeto">
+        <img src="projetos/impressora-uv.jpg" alt="Impressora UV">
+        <p>Experiência em máquinas de impressão UV</p>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2>Contato</h2>
-    <div class="contact-info">
-      <p>Email: gagm.ff@gmail.com</p>
-      <p>Telefone: (11) 95108-8807</p>
-      <p>Instagram: <a href="https://instagram.com/biel_gomes_sp" target="_blank">@biel_gomes_sp</a></p>
-    </div>
-  </section>
-
-  <section>
-    <h2>Formulário de Contato</h2>
-    <form>
-      <input type="text" placeholder="Seu nome" required />
-      <input type="email" placeholder="Seu e-mail" required />
-      <textarea placeholder="Sua mensagem" rows="5" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+  <footer>
+    <p>Contato: gagm.ff@gmail.com | (11) 95108-8807</p>
+    <p><a href="https://instagram.com/biel_gomes_sp" target="_blank">@biel_gomes_sp</a></p>
+  </footer>
 </body>
 </html>
